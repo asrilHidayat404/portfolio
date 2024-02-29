@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-gray-800 opacity-90 border-b border-b-violet-50">
+    <header className="fixed top-0 w-full bg-gray-800 opacity-90 border-b border-b-violet-50 z-10">
       <div className="container mx-auto flex flex-col lg:flex-row justify-around items-center">
         <div className="flex items-center justify-around">
           <div className='overflow-hidden'>
@@ -56,7 +56,7 @@ const Header = () => {
           <Link href="#" className="text-white hover:text-gray-300 block lg:inline-block lg:mt-0 mt-4">Home</Link>
           <Link href="#" className="text-white hover:text-gray-300 block lg:inline-block lg:mt-0 mt-4">About</Link>
           <Link href="#" className="text-white hover:text-gray-300 block lg:inline-block lg:mt-0 mt-4" to={auth ? "/my-projects" : "/log-in"}>My Projects</Link>
-          <Link href="#" className="text-white hover:text-gray-300 block lg:inline-block lg:mt-0 mt-4">Services</Link>
+          <Link href="#" className="text-white hover:text-gray-300 block lg:inline-block lg:mt-0 mt-4">Gallery</Link>
           <Link href="#" className="text-white hover:text-gray-300 block lg:inline-block lg:mt-0 mt-4">Contact</Link>
         </nav>
       </div>

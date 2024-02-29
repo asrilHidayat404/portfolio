@@ -1,12 +1,12 @@
-import HeroImg from "../../assets/hero.png"
+import HeroImg from "../../assets/her02.png"
 import Typewriter from "../../utils/TypeWriterEffect";
 
 const Hero = () => {
     return (
         <div className="w-full h-screen flex justify-center items-center lg:p-6 p-3 lg:flex-row flex-col lg:gap-0 gap-10">
             <div className="flex-1 flex flex-col px-20 lg:items-start items-center mt-32 lg:mt-0">
-                <img src={HeroImg} alt="" width="250px"/>
-                <h1 className="lg:text-5xl text-3xl mb-2 owner">Asril Hidayat</h1>
+                <img src={HeroImg} alt="" width="250px" className="bayang rounded-full"/>
+                <h1 className="lg:text-5xl text-3xl mb-2 mt-2 owner">Asril Hidayat</h1>
                 <p className="text-slate-500 h-5 mb-2">
                     {/* <Typewriter text="Programmer | Collegent" delay={200} infinite /> */}
                     Programmer | Collegent

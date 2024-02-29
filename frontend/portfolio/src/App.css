@@ -8,3 +8,7 @@
   font-weight: 600;
   font-style: normal;
 }
+
+.bayang {
+  box-shadow: 0 0 2px 1px #020617,0 0 2px 2px #cbd5e1,0 0 2px 4px #020617;
+}

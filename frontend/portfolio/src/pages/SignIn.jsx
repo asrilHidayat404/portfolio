@@ -40,7 +40,7 @@ const SignIn = () => {
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
       <p className="text-xl font-semibold text-slate-950">Let Me Know Who You Are</p>
-      <form className="flex flex-col w-1/3 gap-5">
+      <form className="flex flex-col lg:w-1/3 gap-5">
         <div className="flex flex-col gap-1">
             <label>Username</label>
             <input
