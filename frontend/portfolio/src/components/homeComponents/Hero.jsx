@@ -1,4 +1,4 @@
-import HeroImg from "../../assets/her02.png"
+import HeroImg from "../../assets/hero04.png"
 import Typewriter from "../../utils/TypeWriterEffect";
 
 const Hero = () => {
